@@ -1,0 +1,45 @@
+body {
+  background-color: #279;
+  text-align: center;
+  padding: 10%;
+  font-family: helvetica;
+}
+
+.main-title {
+  font-size:60px;
+  color: rgb(90, 151, 172);
+}
+
+label {
+  color: rgb(90, 151, 172);
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+input {
+  background-color: rgba(130, 184, 202, 0.767);
+  border-radius: 7px;
+  border: 2px rgba(255, 255, 255, 0.267) solid;
+  margin-top: 4px;
+  height: 25px;
+  width: 200px;
+}
+
+.button-one {
+  background-color: rgb(134, 211, 241);
+  color: #279;
+  font-size: 15px;
+  border-color: rgba(43, 161, 165, 0.562);
+  border-radius: 8px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input:hover {
+  background-color: rgb(17, 129, 156);
+  color: rgb(0, 0, 0);
+  transition: background-color 0.1s ease-in;
+}
+
+
